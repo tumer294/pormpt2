@@ -1,0 +1,56 @@
+10:16:57 PM: Netlify Build                                                 
+10:16:57 PM: ────────────────────────────────────────────────────────────────
+10:16:57 PM: ​
+10:16:57 PM: ❯ Version
+10:16:57 PM:   @netlify/build 35.3.4
+10:16:57 PM: ​
+10:16:57 PM: ❯ Flags
+10:16:57 PM:   accountId: 679df9c564c88c7628420eb4
+10:16:57 PM:   baseRelDir: true
+10:16:57 PM:   buildId: 6918d1a283be0ad66ac129b4
+10:16:57 PM:   deployId: 6918d1a283be0ad66ac129b6
+10:16:57 PM: ​
+10:16:57 PM: ❯ Current directory
+10:16:57 PM:   /opt/build/repo/client
+10:16:57 PM: ​
+10:16:57 PM: ❯ Config file
+10:16:57 PM:   No config file was defined: using default values.
+10:16:57 PM: ​
+10:16:57 PM: ❯ Context
+10:16:57 PM:   production
+10:16:57 PM: ​
+10:16:57 PM: ❯ Installing extensions
+10:16:57 PM:    - neon
+10:17:13 PM: ​
+10:17:13 PM: ❯ Loading extensions
+10:17:13 PM:    - neon
+10:17:14 PM: ​
+10:17:14 PM: Build command from Netlify app                                
+10:17:14 PM: ────────────────────────────────────────────────────────────────
+10:17:14 PM: ​
+10:17:14 PM: $ npm run build
+10:17:14 PM: > rest-express@1.0.0 build
+10:17:14 PM: > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+10:17:14 PM: sh: 1: vite: not found
+10:17:15 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+10:17:15 PM: ​
+10:17:15 PM: "build.command" failed                                        
+10:17:15 PM: ────────────────────────────────────────────────────────────────
+10:17:15 PM: ​
+10:17:15 PM:   Error message
+10:17:15 PM:   Command failed with exit code 127: npm run build (https://ntl.fyi/exit-code-127)
+10:17:15 PM: ​
+10:17:15 PM:   Error location
+10:17:15 PM:   In Build command from Netlify app:
+10:17:15 PM:   npm run build
+10:17:15 PM: ​
+10:17:15 PM:   Resolved config
+10:17:15 PM:   build:
+10:17:15 PM:     base: /opt/build/repo/client
+10:17:15 PM:     command: npm run build
+10:17:15 PM:     commandOrigin: ui
+10:17:15 PM:     publish: /opt/build/repo/client
+10:17:15 PM:     publishOrigin: ui
+10:17:15 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+10:17:15 PM: Failing build: Failed to build site
+10:17:15 PM: Finished processing build request in 23.821s
