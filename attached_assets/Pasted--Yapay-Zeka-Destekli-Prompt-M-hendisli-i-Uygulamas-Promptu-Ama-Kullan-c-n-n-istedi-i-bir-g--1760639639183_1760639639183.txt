@@ -1,0 +1,81 @@
+🚀 Yapay Zeka Destekli Prompt Mühendisliği Uygulaması Promptu
+
+🔹 Amaç:
+Kullanıcının istediği bir görev veya proje için otomatik olarak güçlü, optimize edilmiş ve profesyonel bir prompt üretmek.
+Bu işlem iki yapay zekâ (AI-1 ve AI-2) arasında zincirleme şekilde yapılacak.
+
+🧠 Proje Özeti:
+
+Kullanıcı bir konu veya görev yazar.
+
+AI-1 (Prompt Üretici AI): Kullanıcının isteğini analiz eder, amaca uygun bir taslak prompt üretir.
+
+AI-2 (Prompt Optimize Edici AI): AI-1’in çıktısını alır, dilbilgisel, teknik ve yaratıcı yönlerden geliştirir; profesyonel düzeyde son promptu oluşturur.
+
+Arka planda iki ayrı API key kullanılacaktır (API_KEY_1 ve API_KEY_2).
+
+Kullanıcı beklerken ekranda ilerleme çubuğu, “AI düşünüyor…” efektleri ve dinamik yazma animasyonları gösterilir.
+
+Sonuç tamamlandığında kullanıcıya hem taslak hem nihai prompt gösterilir ve “Kopyala” butonu yer alır.
+
+🧩 Teknik Gereksinimler:
+
+Frontend: React (veya Next.js) + Tailwind CSS
+
+Backend: Node.js veya Express.js
+
+İki ayrı yapay zeka API entegrasyonu:
+
+API_KEY_1 → İlk taslak prompt üretimi
+
+API_KEY_2 → Nihai prompt optimizasyonu
+
+Durum Yönetimi: React Hooks (useState, useEffect)
+
+İlerleme Göstergesi: animasyonlu progress bar + skeleton loading + “typing dots” efekti
+
+Efektler: Framer Motion veya Lottie animasyonlarıyla canlı görseller
+
+Sonuç Ekranı:
+
+AI-1 prompt (taslak)
+
+AI-2 prompt (geliştirilmiş sürüm)
+
+“Kopyala” düğmesi
+
+Yeniden oluşturma (regenerate) seçeneği
+
+💬 Uygulamanın Promptu (Kod Üreticiye Verilecek Metin):
+Yapay zeka destekli iki aşamalı bir prompt mühendisliği aracı oluştur.
+Uygulama React (veya Next.js) tabanlı olmalı. Kullanıcı bir görev veya konu yazdığında:
+
+1️⃣ Birinci yapay zeka (AI-1) kullanıcının girdisini analiz edip uygun bir ilk taslak prompt oluşturmalı.
+2️⃣ İkinci yapay zeka (AI-2), birinci yapay zekadan gelen çıktıyı alıp geliştirip optimize etmeli.
+
+Tüm süreç arka planda gerçekleşmeli. Kullanıcı beklerken:
+- İlerleme çubuğu (progress bar),
+- "AI düşünüyor..." animasyonu,
+- Yazma efektleri gösterilmeli.
+
+İşlem bittiğinde ekranda:
+- AI-1’in oluşturduğu taslak prompt,
+- AI-2’nin nihai promptu,
+- “Kopyala” düğmesi,
+- “Tekrar oluştur” seçeneği bulunmalı.
+
+Arayüz modern, sade ve canlı renklere sahip olmalı.
+API_KEY_1 ve API_KEY_2 ayrı iki modelle işlem yapacak şekilde .env dosyasında tanımlanmalı.
+Yapılandırma kolay, responsive ve animasyonlu olmalı.
+
+✨ İsteğe Bağlı Ek Özellikler:
+
+Prompt geçmişi (localStorage veya Supabase ile saklama)
+
+AI performans karşılaştırması (örneğin “% gelişme oranı” göstergesi)
+
+Dil seçeneği (Türkçe / İngilizce)
+
+Sesli okuma (Text-to-Speech entegrasyonu)
+
+Paylaşım bağlantısı (kopyalanabilir link)
